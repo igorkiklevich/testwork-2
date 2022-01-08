@@ -129,7 +129,7 @@ if ($(".checkout__form-input-file").length) {
  */
 
 if ($(".preloader").length) {
-    preloader
+
 
     function loadData() {
         return new Promise((resolve, reject) => {
