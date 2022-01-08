@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.min.css">
+    </head>
+    <body>
+        <div class="preloader" id="preloader">
+            <div class="preloader__text">
+                LoremIpsum.
+                    <span>Net</span>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner d-flex">
+                    <a href="#" class="logo">
+                        LoremIpsum.
+                        <span>Net</span>
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item menu--current">
+                                <a href="#" class="menu__link">
+                                    Бизнес
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__link">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__link">
+                                    Цены
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__link">
+                                    Оформить заказ
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="menu__open-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="first-screen" style="background-image: url(img/first-screen--bg.jpg);">
+                <div class="container">
+                    <div class="first-screen__inner">
+                        <div class="first-screen__info">
+                            <h1 class="h1 first-screen__title">
+                                <span>Lorem ipsum</span> dolor sit ametconsectetur
+                                <span>adipiscing</span>
+                            </h1>
+                            <p class="first-screen__subtitle">
+                                At vero eos et accusamus et iusto odio dignissimos ducimus!
+                            </p>
+                            <ul class="first-screen__list">
+                                <li class="first-screen__list-item">
+                                    Totam rem aperiam eaque ipsa
+                                </li>
+                                <li class="first-screen__list-item">
+                                    Sit voluptatem accusantium doloremque laudantium
+                                </li>
+                                <li class="first-screen__list-item">
+                                    Sed ut perspiciatis, unde omnis iste natus error
+                                </li>
+                            </ul>
+                            <div class="first-screen__buttons d-flex">
+                                <a href="#checkout" class="btn first-screen__checkout-btn">
+                                    Заказать
+                                </a>
+                                <a href="#" class="first-screen__more-btn">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <section class="checkout" id="checkout">
+                <div class="container">
+                    <div class="checkout__inner">
+                        <h2 class="checkout__title">
+                            Оформление
+                            <span>Заказа</span>
+                        </h2>
+                        <div class="checkout__subtitle">
+                            Перед заполнением формы ознакомьтесь с нашей схемой работы!
+                        </div>
+                        <div class="checkout__items d-flex">
+                            <div class="checkout__item">
+                                <div class="checkout__item-icon d-flex">
+                                    <i class="icon-search"></i>
+                                </div>
+                                <div class="checkout__item-text">
+                                    Lorem ipsum dolor sit amet
+                                </div>
+                            </div>
+                            <div class="checkout__item">
+                                <div class="checkout__item-icon d-flex">
+                                    <i class="icon-percent"></i>
+                                </div>
+                                <div class="checkout__item-text">
+                                    Сonsecteturadipiscing elit
+                                </div>
+                            </div>
+                            <div class="checkout__item">
+                                <div class="checkout__item-icon d-flex">
+                                    <i class="icon-document"></i>
+                                </div>
+                                <div class="checkout__item-text">
+                                    Sed do eiusmod tempor
+                                </div>
+                            </div>
+                            <div class="checkout__item">
+                                <div class="checkout__item-icon d-flex">
+                                    <i class="icon-mail"></i>
+                                </div>
+                                <div class="checkout__item-text">
+                                    Esse cillum dolore eu fugiat
+                                </div>
+                            </div>
+                            <div class="checkout__item">
+                                <div class="checkout__item-icon d-flex">
+                                    <i class="icon-money"></i>
+                                </div>
+                                <div class="checkout__item-text">
+                                    Excepteur sint occaecat cupidatat non proident
+                                </div>
+                            </div>
+                        </div>
+                        <form action="" class="checkout__form">
+                            <div class="checkout__form-row d-flex">
+                                <select name="system-type" class="checkout__form-select custom-select">
+                                    <option value="hide" selected disabled>Выберите тип системы</option>
+                                    <option value="Sed ut perspiciatis">Sed ut perspiciatis</option>
+                                    <option value="Nemo enim ipsam">Nemo enim ipsam</option>
+                                    <option value="Et harum quidem">Et harum quidem</option>
+                                    <option value="Temporibus autem">Temporibus autem</option>
+                                    <option value="Itaque earum rerum">Itaque earum rerum</option>
+                                    <option value="Какой-то текст">Какой-то текст</option>
+                                    <option value="Какой-то текст">Какой-то текст</option>
+                                    <option value="Какой-то текст">Какой-то текст</option>
+                                </select>
+                                <input
+                                    type="email"
+                                    class="checkout__form-input"
+                                    placeholder="Ваш e-mail"
+                                    required
+                                >
+                                <input
+                                    type="text"
+                                    class="checkout__form-input"
+                                    placeholder="Ваше имя"
+                                    required
+                                >
+                            </div>
+                            <div class="checkout__form-row d-flex">
+                                <div class="checkout__form-range">
+                                    <div class="checkout__form-range-top d-flex">
+                                        <label for="checkout-range">Sed ut perspiciatis, unde omnis iste natus</label>
+                                        <span class="checkout__form-range-value">0</span>
+                                    </div>
+                                    <input class="checkout__form-range-line" type="range" value="75" min="0" max="100" name="checkout-range">
+                                  </div>
+                                <div class="checkout__form-file-box">
+                                    <input
+                                        class="checkout__form-input-file"
+                                        id="checkout__add-file"
+                                        type="file"
+                                        name="checkout__add-file"
+                                    >
+                                    <label tabindex="0" for="checkout__add-file" class="checkout__add-file">
+                                        <span>
+                                            Прикрепить файл
+                                        </span>
+                                    </label>
+                                    <p class="checkout__form-file-return file-return"></p>
+                                </div>
+                            </div>
+                            <button type="submit" class="checkout__form-submit btn">
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section> 
+        </main>
+         <footer class="footer">
+            <div class="container">
+                <div class="footer__inner d-flex">
+                    <div class="footer__left">
+                        <div class="copyright">
+                            © 2018 «LoremIpsum.net» Все права защищены.
+                        </div>
+                    </div>
+                    <div class="footer__right d-flex">
+                        <div class="footer__payments d-flex">
+                            <div class="footer__payments-item d-flex">
+                                <i class="icon-qiwi"></i>
+                                Qiwi wallet
+                            </div>
+                            <div class="footer__payments-item d-flex">
+                                <i class="icon-ymoney"></i>
+                                Yandex Money
+                            </div>
+                            <div class="footer__payments-item d-flex">
+                                <i class="icon-webmoney"></i>
+                                Web Money
+                            </div>
+                        </div>
+                        <div class="footer__contacts d-flex">
+                            <div class="footer__contacts-item d-flex">
+                                <i class="icon-mail--small"></i>
+                                <a href="mailto:info@ipsum228.com" class="footer__contacts-link">info@ipsum228.com</a>
+                            </div>
+                            <div class="footer__contacts-item d-flex">
+                                <i class="icon-vk"></i>
+                                <a href="#" class="footer__contacts-link" target="blank">Мы вконтакте</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
